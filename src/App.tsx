@@ -12,14 +12,21 @@ import ConclusionSection from './components/ConclusionSection.tsx';
 import Footer from './components/Footer.tsx';
 import PresentationMode from './components/PresentationMode.tsx';
 
-// High-fidelity image assets
+import heroImage from './assets/images/hero_surgery_future_1794337129638.jpg';
+import robotImage from './assets/images/robot_surgical_precision_1794337130471.jpg';
+import scanImage from './assets/images/ai_scan_analysis_1794337131499.jpg';
+import doctorImage from './assets/images/surgeon_supervisor_hud_1794337132890.jpg';
+import panoramicImage from './assets/images/operating_room_panoramic_1794337132595.jpg';
+import conclusionImage from './assets/images/future_surgery_vision_1794337827119.jpg';
+
+// High-fidelity image assets bundled by Vite for production
 const IMAGES = {
-  hero: '/src/assets/images/hero_surgery_future_1794337129638.jpg',
-  robot: '/src/assets/images/robot_surgical_precision_1794337130471.jpg',
-  scan: '/src/assets/images/ai_scan_analysis_1794337131499.jpg',
-  doctor: '/src/assets/images/surgeon_supervisor_hud_1794337132890.jpg',
-  panoramic: '/src/assets/images/operating_room_panoramic_1794337132595.jpg',
-  conclusion: '/src/assets/images/future_surgery_vision_1794337827119.jpg',
+  hero: heroImage,
+  robot: robotImage,
+  scan: scanImage,
+  doctor: doctorImage,
+  panoramic: panoramicImage,
+  conclusion: conclusionImage,
 };
 
 export default function App() {
