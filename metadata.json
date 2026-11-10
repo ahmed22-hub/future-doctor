@@ -1,0 +1,8 @@
+{
+  "name": "Chirurgien du Futur — Robots Autonomes & IA",
+  "description": "Présentation prospective universitaire sur la chirurgie du futur, les robots autonomes et la supervision médicale par l'intelligence artificielle.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
